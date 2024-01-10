@@ -1,9 +1,27 @@
-.container {
+@import './variables/text.scss';
+
+.container{
+  background-color: rgb(15, 23, 42);
+  color:$textColor;
+.content{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  
+  margin-left: 1.5em;
+}
+}
+
+@media (width > 426px){
+  .container {
+    display: flex;
     height: 100vh;
     width: 100vw;
-    background-color: rgb(15, 23, 42);
     top: 0;
     overflow: hidden;
+    background-color: rgb(15, 23, 42);
+    color: rgb(226 232 240);
   
     .spotlight {
       position: fixed;
@@ -17,14 +35,17 @@
         rgba(255, 255, 255, 0) 70%
       );
       transform: translate(-50%, -50%);
-      pointer-events: none; 
+      
       
     }
 
     .content{
+    width: 90%;
+      position: absolute;
       display: flex;
       align-items: center;
-     justify-content: center;
+      justify-content: space-around;
       margin: 5em;
+      margin-left: 10em;
     }
-}
+}}

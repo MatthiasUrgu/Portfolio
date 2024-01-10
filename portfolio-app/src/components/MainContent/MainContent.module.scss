@@ -1,6 +1,19 @@
 .mainContainer{
+    min-width:20vw;
     
     h1{
-        font-size: 3em;
+        font-size: 2em;
     }
+    .list{
+        display: none;
+    }
+}
+
+@media (width > 426px){
+    .mainContainer{
+   .list{
+    display:inline
+   }
+}
+
 }

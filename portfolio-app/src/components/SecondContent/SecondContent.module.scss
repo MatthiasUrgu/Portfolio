@@ -1,4 +1,12 @@
-.sectionContent{
-    height: 50vh;
-overflow: scroll;
+.sectionContent {
+  height: 80vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
 }
+
+
+.sectionContent::-webkit-scrollbar{
+  display: none;
+}
+
