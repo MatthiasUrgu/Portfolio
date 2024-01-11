@@ -1,7 +1,7 @@
 import './App.scss'
 import { useState,useEffect } from 'react'
-import MainContent from './components/MainContent/MainContent';
-import SecondContent from './components/SecondContent/SecondContent';
+import MainContent from '@/components/MainContent/MainContent';
+import SecondContent from '@/components/SecondContent/SecondContent';
 function App() {
 
   const [spotlightPosition, setSpotlightPosition] = useState({ x: 0, y: 0 });
