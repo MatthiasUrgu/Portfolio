@@ -1,8 +1,13 @@
 .mainContainer{
-    min-width:20vw;
+    margin-top: 3em;
     
-    h1{
+    .mainTitle{
+
         font-size: 2em;
+    }
+    .mainSubtitle{
+        position: relative;
+        margin-top: -1em;
     }
     .list{
         display: none;

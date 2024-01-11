@@ -3,8 +3,12 @@ import style from "./MainContent.module.scss";
 export default function MainContent() {
   return (
     <section className={style.mainContainer}>
-      <h1>Matthias Urgu</h1>
-      <p>Junior front-end developer.</p>
+      <h1 className={style.mainTitle}>Matthias Urgu</h1>
+      <p className={style.mainSubtitle}>Junior front-end developer.</p>
+      <div className={style.imgLogo}>
+        <img src="" alt="Github" />
+        <img src="" alt="linkedIn" />
+      </div>
       <div className={style.list}>
         <ul>
           <li>

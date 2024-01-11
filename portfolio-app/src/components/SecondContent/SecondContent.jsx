@@ -31,18 +31,18 @@ export default function () {
 
   return (
 
-    
-    
-
-
     <section className={style.sectionContent}>
             <div id="div1">
-              <h1>About</h1>
+              <h1 className={style.secondTitle}>
+                About
+                </h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
             </div>
             <div id="div2">
-              <h1>Project</h1>
+              <h1 className={style.secondTitle}
+              >Project
+              </h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
@@ -50,31 +50,9 @@ export default function () {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
             </div>
             <div>
-              <h1>Contact</h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-            </div>
-            <div>
-              <h1>div 4</h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-            </div>
-            <div>
-              <h1>div 5</h1>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
-            </div>
-            <div id="div6">
-              <h1>div 6</h1>
+              <h1 className={style.secondTitle}
+              >Contact
+              </h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde numquam reiciendis!

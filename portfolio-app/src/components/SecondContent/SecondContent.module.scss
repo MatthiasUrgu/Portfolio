@@ -1,12 +1,19 @@
 .sectionContent {
+  margin-top: 10em;
+}
+
+
+
+
+
+@media (width > 426px){
+  .sectionContent{
   height: 80vh;
   overflow-y: auto;
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
-
-
 .sectionContent::-webkit-scrollbar{
   display: none;
 }
-
+}
