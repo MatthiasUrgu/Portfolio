@@ -1,12 +1,51 @@
 .sectionContent {
   margin-top: 5em;
+
+  .cardContent{
+    .cardSecondTitle{
+      font-size: 1em;
+    }
+    .cardSubtitle{
+      font-size: 1em;
+
+    }
+    .cardDescription{
+      font-size: 1em;
+
+    }
+
+    .cardWhy{
+      font-size: 1em;
+
+    }
+    .cardTechno{
+      font-size: 1em;
+
+      ul{
+
+        .cardTechnoList{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          
+
+        
+          
+          border-radius: 2em;
+          background-color: rgba(128, 128, 128, 0.481);
+        
+        }
+
+      }
+    }
+}
 }
 
 
 
 
 
-@media (width > 426px){
+@media (width > 426px) {
   .sectionContent{
   height: 80vh;
   overflow-y: auto;

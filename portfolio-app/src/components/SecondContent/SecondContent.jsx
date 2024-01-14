@@ -9,7 +9,7 @@ export default function () {
       Description:
         "The Body Mass Calculator is a React.js project designed to help users assess their body weight status using the BMI calculation. It was created as a personal project with the primary goal of improving",
       Why: "React.js skills,Enhancing my coding logic, Practicing SCSS, including concepts such as Mixins, Includes, Variables, and Responsiveness.",
-      Techno: ["React", "sass"],
+      Techno: ["React", "sass","id1"],
     },
 
     {
@@ -25,6 +25,7 @@ export default function () {
         "OpenWeather Api",
         "Abstract Api",
         "FramerMotion",
+        "id2"
       ],
     },
 
@@ -32,9 +33,10 @@ export default function () {
       Id: "3",
       Title: "Beyangin",
       Description: "",
-      Techno: ["React", "sass"],
+      Techno: ["React", "sass","id3"],
     },
   ];
+  
   return (
     <section className={style.sectionContent}>
       <div className={style.cardContent} id="div1">
@@ -54,11 +56,11 @@ export default function () {
             <p className={style.cardWhy}>{project.Why}</p>
             <p className={style.cardTechno}>
               <ul>
-                {projects.map((tech, index) => (
-                  <li className={style.cardTechnoList} key={ index }>
-                    {tech.Techno}
-                  </li>
-                ))}
+                
+                    {project.Techno.map(tech => <li className={style.cardTechnoList}> {tech}</li>)}
+                  
+                
+              
               </ul>
             </p>
           </div>
