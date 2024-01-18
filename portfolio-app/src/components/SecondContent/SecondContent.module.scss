@@ -1,16 +1,40 @@
+@import '@/variables/color.scss';
+@import '@/variables/font.scss';
+@import '@/variables/text.scss';
+
 .sectionContent {
-  margin-top: 5em;
+  margin-top: 4em;
+  font-family: HelveticaS;
+  font-size: $SubtitleSize;
+  color:$SectionContent; 
 
   .cardContent{
-    .cardSecondTitle{
-      font-size: 1em;
+    margin-bottom: 3em;
+    .secondTitle{
+      margin-bottom: 2em;
+      color:$CardTitle; 
+
+      letter-spacing: 0.1em;
+      
+    }
+    .secondTitleSticky{
+      position: sticky;
+      top: 1em;
+      
+    }
+    .IsSecondTitleSticky{
+
+      background-color: yellow;
+      
     }
     .cardSubtitle{
-      font-size: 1em;
-
+     @extend .secondTitle;
+     margin-bottom:1.3em;
     }
     .cardDescription{
-      font-size: 1em;
+      margin-bottom: 0.5em;
+      
+     
 
     }
 
@@ -19,15 +43,19 @@
 
     }
     .cardTechno{
-      font-size: 1em;
+      font-size: $ButtonTechnoQize;
+      margin-top: 1em;
+
 
       ul{
-
+        display: flex;
+        flex-wrap: wrap;
         .cardTechnoList{
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          
+          list-style: none;
+          padding: 0.5em 1em;
+          margin-top: 1em;
+          margin-right: 0.5em;
+
 
         
           

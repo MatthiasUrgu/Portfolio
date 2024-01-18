@@ -1,11 +1,14 @@
 @import '@/variables/color.scss';
+@import '@/variables/font.scss';
+@import '@/variables/text.scss';
 
 .mainContainer{
     margin-top: 3em;
     
     .mainTitle{
-
-        font-size: 2em;
+        font-family: Aileron;
+        font-size: $TitleSize;
+        line-height:2em
     }
     .mainSubtitle{
         position: relative;
@@ -21,7 +24,7 @@
             padding-right: 1em;
         }
         .logo{
-            width: 2.5em;
+            width: 2em;
             filter: invert(1);
             opacity: 0.6;
         

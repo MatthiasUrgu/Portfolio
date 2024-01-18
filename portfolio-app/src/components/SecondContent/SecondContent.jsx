@@ -1,4 +1,6 @@
+
 import style from "./SecondContent.module.scss";
+
 
 export default function () {
   //Project informations
@@ -34,13 +36,18 @@ export default function () {
       Title: "Beyangin",
       Description: "",
       Techno: ["React", "sass","id3"],
-    },
+    },  
   ];
-  
+
+
+  //useStickyObserver 
+
+   
+
   return (
     <section className={style.sectionContent}>
       <div className={style.cardContent} id="div1">
-        <h1 className={style.cardSecondTitle}>About</h1>
+        <h1 className={`${style.secondTitle} ${style.secondTitleSticky}`}>ABOUT</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis
         adipisci? Dolore cumque error eligendi tempora quod, unde numquam
         reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -48,7 +55,7 @@ export default function () {
         numquam reiciendis!
       </div>
       <div className={style.cardContent} id="div2">
-        <h1 className={style.cardSecondTitle}>Project</h1>
+        <h1  className={`${style.secondTitle} ${style.secondTitleSticky}`}>PROJECTS</h1>
         {projects.map((project) => (
           <div id={project.Id} className={style.projectsCards} key={project.Id}>
             <h2 className={style.cardSubtitle}>{project.Title}</h2>
@@ -67,7 +74,7 @@ export default function () {
         ))}
       </div>
       <div className={style.cardContent} id="div3">
-        <h1 className={style.cardSecondTitle}>Contact</h1>
+        <h1  className={`${style.secondTitle} ${style.secondTitleSticky}`}>CONTACT ME</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis
         adipisci? Dolore cumque error eligendi tempora quod, unde numquam
         reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
