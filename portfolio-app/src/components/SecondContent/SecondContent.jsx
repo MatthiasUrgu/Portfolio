@@ -41,21 +41,31 @@ export default function () {
 
 
   //useStickyObserver 
-
-   
-
+ 
   return (
     <section className={style.sectionContent}>
       <div className={style.cardContent} id="div1">
-        <h1 className={`${style.secondTitle} ${style.secondTitleSticky}`}>ABOUT</h1>
+        <h1 className={`${style.secondTitle} ${style.secondTitleSticky}`}>
+          ABOUT 
+          </h1>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae commodi minima distinctio nisi possimus.
+      </div>
+      <div className={style.cardContent} id="div2">
+        <h1  className={`${style.secondTitle} ${style.secondTitleSticky}`}>EXPERIENCE</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis
         adipisci? Dolore cumque error eligendi tempora quod, unde numquam
         reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Est, debitis adipisci? Dolore cumque error eligendi tempora quod, unde
-        numquam reiciendis!
+        numquam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Est, debitis adipisci? Dolore cumque error eligendi tempora quod,
+        unde numquam reiciendis! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Est, debitis adipisci? Dolore cumque error eligendi
+        tempora quod, unde numquam reiciendis! Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Est, debitis adipisci? Dolore cumque error
+        eligendi tempora quod, unde numquam reiciendis!
       </div>
-      <div className={style.cardContent} id="div2">
-        <h1  className={`${style.secondTitle} ${style.secondTitleSticky}`}>PROJECTS</h1>
+      <div className={style.cardContent} id="div3">
+        <h1 className={`${style.secondTitle} ${style.secondTitleSticky}`}>PROJECTS</h1>
         {projects.map((project) => (
           <div id={project.Id} className={style.projectsCards} key={project.Id}>
             <h2 className={style.cardSubtitle}>{project.Title}</h2>
@@ -73,6 +83,7 @@ export default function () {
           </div>
         ))}
       </div>
+      
       <div className={style.cardContent} id="div3">
         <h1  className={`${style.secondTitle} ${style.secondTitleSticky}`}>CONTACT ME</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis

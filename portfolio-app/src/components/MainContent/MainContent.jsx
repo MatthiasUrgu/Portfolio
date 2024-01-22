@@ -6,8 +6,8 @@ export default function MainContent() {
       <h1 className={style.mainTitle}>Matthias Urgu</h1>
       <p className={style.mainSubtitle}>Junior front-end developer.</p>
       <div className={style.imgLogo}>
-        <img className={style.logo} src="/assets/img/logo_github.svg" alt="Github" />
-        <img className={style.logo} src="/assets/img/logo_linkedin.svg" alt="linkedIn" />
+        <a href="https://github.com/MatthiasUrgu/"><img className={style.logo} src="/assets/img/logo_github.svg" alt="Github" /></a>
+        <a href="https://www.linkedin.com/in/matthiasurgu"><img className={style.logo} src="/assets/img/logo_linkedin.svg" alt="linkedIn" /></a>
       </div>
       <div className={style.list}>
         <ul>
