@@ -6,8 +6,20 @@ export default function MainContent() {
       <h1 className={style.mainTitle}>Matthias Urgu</h1>
       <p className={style.mainSubtitle}>Junior front-end developer.</p>
       <div className={style.imgLogo}>
-        <a href="https://github.com/MatthiasUrgu/"><img className={style.logo} src="/assets/img/logo_github.svg" alt="Github" /></a>
-        <a href="https://www.linkedin.com/in/matthiasurgu"><img className={style.logo} src="/assets/img/logo_linkedin.svg" alt="linkedIn" /></a>
+        <a href="https://github.com/MatthiasUrgu/">
+          <img
+            className={style.logo}
+            src="/assets/img/logo_github.svg"
+            alt="Github"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/matthiasurgu">
+          <img
+            className={style.logo}
+            src="/assets/img/logo_linkedin.svg"
+            alt="linkedIn"
+          />
+        </a>
       </div>
       <div className={style.list}>
         <ul>
@@ -27,6 +39,17 @@ export default function MainContent() {
             </a>
           </li>
         </ul>
+      </div>
+
+      <div className={style.buttonDownload}>
+        <button>
+          <a
+            href="/public/assets/cv/CV Matthias Urgu.pdf"
+            download="CV Matthias Urgu.pdf"
+          >
+            dowload
+          </a>
+        </button>
       </div>
     </section>
   );

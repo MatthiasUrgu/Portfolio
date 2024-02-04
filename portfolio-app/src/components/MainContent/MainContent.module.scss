@@ -30,6 +30,18 @@
         
         }
     }
+
+    .buttonDownload{
+        button{
+            background-color: transparent;
+            border: 0.1em solid $textColor;
+            border-radius: 0.5em;
+            a{
+                text-decoration: none;
+                color: $textColor;
+            }
+    }
+}
 }
 
 @media (width > 426px){

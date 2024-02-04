@@ -30,9 +30,6 @@
     }
     .cardDescription{
       margin-bottom: 0.5em;
-      
-     
-
     }
 
     .cardWhy{
@@ -42,6 +39,7 @@
     .cardTechno{
       font-size: $ButtonTechnoQize;
       margin-top: 1em;
+      margin-bottom: 5em;
 
 
       ul{
@@ -52,15 +50,9 @@
           padding: 0.5em 1em;
           margin-top: 1em;
           margin-right: 0.5em;
-          
-          font-size: $SubtitleSize;
-
-
-        
-          
+          font-size: $TechnoSize;
           border-radius: 2em;
           background-color: rgba(128, 128, 128, 0.481);
-        
         }
 
       }
