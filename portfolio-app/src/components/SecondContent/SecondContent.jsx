@@ -8,6 +8,7 @@ export default function () {
     {
       Id: "1",
       Title: "Body mass calculator",
+      img : "www.google.com",
       Description:
         "The Body Mass Calculator is a React.js project designed to help users assess their body weight status using the BMI calculation. It was created as a personal project with the primary goal of improving",
       Why: "React.js skills,Enhancing my coding logic, Practicing SCSS, including concepts such as Mixins, Includes, Variables, and Responsiveness.",
@@ -17,6 +18,8 @@ export default function () {
     {
       Id: "2",
       Title: "Weather app",
+      img : "www.matthias.com",
+
       Description:
         "The Weather App is a simple application that provides users with real-time weather information, date, and time. It's designed for anyone who wants to quickly check the weather conditions in different locations",
       Why: "I created this project to learn about how to use and apply APIs. The Weather App utilizes two APIs: OpenWeather for weather information and Abstract API to obtain the current UTC time.Additionally, I've incorporated Framer Motion to animate the hamburger menu for a more interactive user experience.",
@@ -69,6 +72,7 @@ export default function () {
         {projects.map((project) => (
           <div id={project.Id} className={style.projectsCards} key={project.Id}>
             <h2 className={style.cardSubtitle}>{project.Title}</h2>
+            <img src={project.img} alt="projectImg" />
             <p className={style.cardDescription}>{project.Description}</p>
             <p className={style.cardWhy}>{project.Why}</p>
             <p className={style.cardTechno}>

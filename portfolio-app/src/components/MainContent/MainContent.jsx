@@ -21,6 +21,16 @@ export default function MainContent() {
           />
         </a>
       </div>
+      <div className={style.buttonDownload}>
+        <button>
+          <a
+            href="/public/assets/cv/CV Matthias Urgu.pdf"
+            download="CV Matthias Urgu.pdf"
+          >
+            Download CV
+          </a>
+        </button>
+      </div>
       <div className={style.list}>
         <ul>
           <li>
@@ -41,16 +51,7 @@ export default function MainContent() {
         </ul>
       </div>
 
-      <div className={style.buttonDownload}>
-        <button>
-          <a
-            href="/public/assets/cv/CV Matthias Urgu.pdf"
-            download="CV Matthias Urgu.pdf"
-          >
-            dowload
-          </a>
-        </button>
-      </div>
+      
     </section>
   );
 }
