@@ -4,7 +4,8 @@ export default function MainContent() {
   return (
     <section className={style.mainContainer}>
       <h1 className={style.mainTitle}>Matthias Urgu</h1>
-      <p className={style.mainSubtitle}>Junior front-end developer.</p>
+      <p className={style.mainSubtitle}>Junior front-end developer.
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, voluptatum!</p>
       <div className={style.imgLogo}>
         <a href="https://github.com/MatthiasUrgu/">
           <img
@@ -25,8 +26,7 @@ export default function MainContent() {
         <button>
           <a
             href="/public/assets/cv/CV Matthias Urgu.pdf"
-            download="CV Matthias Urgu.pdf"
-          >
+            download="CV Matthias Urgu.pdf">
             Download CV
           </a>
         </button>
@@ -34,17 +34,17 @@ export default function MainContent() {
       <div className={style.list}>
         <ul>
           <li>
-            <a href="#div1">
+            <a href="#about">
               <span>a</span> About me
             </a>
           </li>
           <li>
-            <a href="#div6">
+            <a href="#projects">
               <span>Projects</span>
             </a>
           </li>
           <li>
-            <a href="#div2">
+            <a href="#contact">
               <span>Contact</span>
             </a>
           </li>
