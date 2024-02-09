@@ -1,7 +1,7 @@
 @import '@/variables/color.scss';
 @import '@/variables/font.scss';
+@import '@/variables/button.scss';
 @import '@/variables/text.scss';
-
 .mainContainer{
     margin-top: 3em;
     
@@ -33,30 +33,10 @@
 
     .buttonDownload{
         margin-top: 1em;
-        button{
-            background-color: transparent;
-            border: 0.1em solid $textColor;
-            padding: 1em;
-            
-
-            border-radius: 1em;
-            a{
-                font-family: HelveticaS;
-                font-size: 1.2em;
-                text-decoration: none;
-                color: $textColor;
-            }
+        
+          @extend .mainButton
+        
     }
-}
-
-    button:hover{
-        background-color: $SectionContent;
-        a{
-            color: $BackgroundColor-primary;
-        }
-    }
-}
-
 @media (width > 426px){
     .mainContainer{
    .list{
@@ -64,4 +44,4 @@
    }
 }
 
-}
+}}

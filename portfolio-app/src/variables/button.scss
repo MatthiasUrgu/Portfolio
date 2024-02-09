@@ -1,0 +1,23 @@
+@import "@/variables/color.scss";
+
+.mainButton {
+  button {
+    background-color: transparent;
+    border: 0.1em solid $textColor;
+    padding: 1em;
+    color: $textColor;
+    border-radius: 1em;
+    a {
+      font-family: HelveticaS;
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+  }
+
+  button:hover {
+    background-color: $SectionContent;
+    a {
+      color: $BackgroundColor-primary;
+    }
+  }
+}

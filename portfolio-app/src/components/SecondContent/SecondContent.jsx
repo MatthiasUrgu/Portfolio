@@ -66,13 +66,14 @@ export default function () {
             </div>
             <p className={style.cardDescription}>{project.Description}</p>
             <p className={style.cardWhy}>{project.Why}</p>
+              <div className={style.cardButton}>
+                <button className={style.buttonLive}>Live demo</button>
+                <button className={style.buttonLive}>Github </button>
+              </div>
             <p className={style.cardTechno}>
               <ul>
-                
                     {project.Techno.map(tech => <li className={style.cardTechnoList}> {tech}</li>)}
-                  
-                
-              
+
               </ul>
             </p>
           </div>
