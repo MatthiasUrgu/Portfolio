@@ -47,8 +47,8 @@ export default function () {
         <h1 className={`${style.secondTitle} ${style.secondTitleSticky}`}>
           ABOUT 
           </h1>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae commodi minima distinctio nisi possimus.
-      </div>
+          Reconverti dans le web development depuis 2022, j'ai effectué une formation de 7 mois a Becode Charleroi, je continue mon parcours en autodidacte sur différente platforme de formation. Curieux, motivé , je suis toujours a la recherche d'affrondir mes connaisances .      
+          </div>
       <div className={style.cardContent} id="experience">
         <h1  className={`${style.secondTitle} ${style.secondTitleSticky}`}>EXPERIENCE</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, debitis
@@ -72,7 +72,7 @@ export default function () {
               </div>
             <p className={style.cardTechno}>
               <ul>
-                    {project.Techno.map(tech => <li className={style.cardTechnoList}> {tech}</li>)}
+                    {project.Techno.map(tech => <li className={style.cardTechnoList} key={project.Id }> {tech}</li>)}
 
               </ul>
             </p>

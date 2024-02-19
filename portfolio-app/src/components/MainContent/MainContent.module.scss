@@ -2,6 +2,8 @@
 @import '@/variables/font.scss';
 @import '@/variables/button.scss';
 @import '@/variables/text.scss';
+
+
 .mainContainer{
     margin-top: 3em;
     
@@ -33,12 +35,12 @@
 
     .buttonDownload{
         margin-top: 1em;
-        
-          @extend .mainButton
+          @extend .mainButton;
         
     }
-@media (width > 426px){
+@media (width > 426px) and (width < 769px){
     .mainContainer{
+       
    .list{
     display:inline
    }
